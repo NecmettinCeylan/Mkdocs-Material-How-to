@@ -32,3 +32,15 @@ Ref:
 # Publish to Github
 
 1. Activate CI using Github Actions
+2. Select "Deploy from branch" and gh-pages as branch
+3. Set Custom domain
+
+    a. Set domain name url in repo settings such as: https://www.necmettinceylan.com/
+
+    b. Add record to domain settings such as: 
+
+    | Host  | Type | Data
+    | ------------- | ------------- | ------------- |
+    | www  | CNAME | \<gh-username>.github.io
+
+    
